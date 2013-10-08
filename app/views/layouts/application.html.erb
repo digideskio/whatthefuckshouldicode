@@ -6,10 +6,21 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 <%= yield %>
 
+<div id="footer">
+  <div class="container">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.whatthefuckshouldicode.com" data-text="WTF SHOULD I CODE" data-via="pawelrychlik">Tweet</a>
+    <p class="text-muted credit">Created by <a href="http://twitter.com/pawelrychlik">@pawelrychlik</a>.</p>
+  </div>
+</div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </body>
 </html>
