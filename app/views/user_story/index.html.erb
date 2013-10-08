@@ -2,13 +2,13 @@
     <div class="row-fluid">
         <div class="span12">
             <div class="hero-unit">
-                <h1>
+                <h1 class="text-center">
                     WHY DON'T YOU FUCKING CODE THIS USER STORY:
                 </h1>
-                <p>
-                    As a <%= @role %>, I can <%= @goal %> so that <%= @benefit %>.
+                <p class="text-center">
+                    As a <%= @user_story[:attribute] %> <%= @user_story[:role] %>, I can <%= @user_story[:goal] %> so that <%= @user_story[:benefit] %>.
                 </p>
-                <p class="btn btn-primary btn-large">
+                <p class="text-center">
                     <%= link_to "NO, I DON'T FUCKING LIKE IT", root_path %>
                 </p>
             </div>
