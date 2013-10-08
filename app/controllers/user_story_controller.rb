@@ -7,6 +7,13 @@ class UserStoryController < ApplicationController
   end
 
   def index
-    render text: "As a #{@roles.sample}, I can #{@goals.sample}, so that #{@benefits.sample}."
+    @role = @roles.sample
+    @goal = @goals.sample
+    @benefit = @benefits.sample
+
+    respond_to do |format|
+      format.text { render text: "As a #{@role}, I can #{@goal} so that #{@benefit}." }
+      format.html
+    end
   end
 end
