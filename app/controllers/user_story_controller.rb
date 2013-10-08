@@ -13,7 +13,7 @@ class UserStoryController < ApplicationController
 
     respond_to do |format|
       format.text { render text: "As a #{@role}, I can #{@goal} so that #{@benefit}." }
-      format.html
+      format.html { render layout: 'application' }
     end
   end
 end

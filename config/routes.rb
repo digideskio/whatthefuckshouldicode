@@ -1,6 +1,4 @@
 Whatthefuckshouldicode::Application.routes.draw do
-  get "user_story" => "user_story#index"
-
   root to: "user_story#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
