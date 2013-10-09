@@ -22,6 +22,7 @@ class Goal
       'read the messages of other users',
       'mark the content as private',
       'sign the documents',
+      'move on to the next task',
       'put the advertisements on selected websites',
       'perform batch operations on the items',
       'change my privacy settings',
