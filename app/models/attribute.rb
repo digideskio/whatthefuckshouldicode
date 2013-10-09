@@ -1,27 +1,28 @@
 class Attribute
 
   @@attributes = %w(
-    abandoned aggressive
-    cautious careless corrupted
-    dangerous decent defensive demanding difficult direct disguised dishonest
-    eager elderly euphoric ethical evil exotic expensive
-    fake fat flaky flawed flawless friendly
-    grounded
-    handsome harmful hesitant
-    imaginary impolite incompatible infamous irregular
-    known
-    lame lazy lovely
-    messy motionless
-    naive
+    admin active acquired anonymous associated automated authenticated authorized
+    blocked backup business-critical
+    cautious careless complaining corporate corrupted
+    dangerous decent deleted demanding deprecated direct disguised dishonest draft dummy
+    evil executive exotic external
+    fake faulty flaky flawless foreign
+    generic
+    handsome harmful hesitant hidden highlighted
+    imaginary impolite important incoming incompatible independent internal irregular
+    key known
+    lame leading local
+    mentioned messy modern
+    new
     old-fashioned ordinary
-    peaceful plain pointless profitable pricey
-    questionable quirky
-    reckless
-    secondary selfish serious shocking sophisticated stale submissive stylish
-    tangible tempting thin third-party trustworthy
-    unconscious unknown unwelcome used useless
+    physical plain pointless potential premium private profitable
+    quarantined questionable quirky
+    random reckless referenced referred regular returning
+    secondary shared signed-in sophisticated stale stateless statistical stray
+    tagged third-party troubled true trusted
+    unknown unsupported useless
     valid virtual
-    well-documented
+    worst
   )
 
   def self.get
