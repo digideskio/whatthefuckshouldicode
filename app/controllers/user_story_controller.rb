@@ -8,15 +8,10 @@ class UserStoryController < ApplicationController
   end
 
   def index
-    @user_story = {
-      attribute: @attributes.sample,
-      role: @roles.sample,
-      goal: @goals.sample,
-      benefit: @benefits.sample
-    }
+    @user_story = "As a #{@attributes.sample} #{@roles.sample}, I can #{@goals.sample} so that #{@benefits.sample}."
 
     respond_to do |format|
-      format.text { render text: "As a #{@user_story[:attribute]} #{@user_story[:role]}, I can #{@user_story[:goal]} so that #{@user_story[:benefit]}." }
+      format.text { render text: @user_story }
       format.html { render layout: 'application' }
     end
   end
