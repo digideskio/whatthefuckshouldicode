@@ -1,101 +1,74 @@
 class Attribute
 
   @@attributes = %w(
+    10$
+    40%
     admin
-    active
-    acquired
+    alpha-male
     anonymous
-    associated
-    automated
-    authenticated
     authorized
-    blocked
-    backup
-    business-critical
-    cautious
+    bad-ass
+    blonde
+    buy-one-get-one-free
     careless
-    complaining
-    corporate
-    corrupted
-    dangerous
+    chubby
+    creepy
     decent
-    deleted
-    demanding
     deprecated
-    direct
+    disco-disco
     disguised
     dishonest
-    draft
+    disturbing
     dummy
-    evil
-    executive
-    exotic
-    external
     fake
     faulty
     flaky
-    flawless
-    foreign
-    generic
+    greedy
     handsome
-    harmful
-    hesitant
-    hidden
-    highlighted
+    humongous
+    hungover
+    hissing
+    Hungarian
     imaginary
-    impolite
-    important
-    incoming
-    incompatible
-    independent
-    internal
+    ion
     irregular
-    key
-    known
-    lame
-    leading
-    local
-    mentioned
+    kick-ass
+    last-but-one
+    lazy
+    luminous
+    luxurious
     messy
-    modern
+    naughty
     new
-    old-fashioned
     ordinary
     physical
-    plain
     pointless
-    potential
+    pre-alpha
+    pregnant
     premium
-    private
-    profitable
-    quarantined
     questionable
     quirky
-    random
     reckless
-    referenced
-    referred
-    regular
+    repellent
     returning
-    secondary
-    shared
+    ripe
     signed-in
-    sophisticated
-    stale
-    stateless
-    statistical
+    shy
+    sneaky
+    sober
+    straight
     stray
-    tagged
-    third-party
+    sweet-and-sour
+    thirsty
+    topologically-distinguishable
     troubled
-    true
     trusted
+    unconscious
     unknown
     unsupported
     useless
-    valid
+    vacuum
     virtual
-    worst
   )
 
   def self.get
