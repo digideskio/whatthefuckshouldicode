@@ -51,6 +51,15 @@ class Goal
       'haz cheezburger',
       'optimize my adult-site bills',
       'geo-locate other devices that are nearby',
+      'watch those silly drug commercials in slowmo',
+      'alphabetically order the items on my desk',
+      'rely on my corporate coffee machine in critical situations',
+      'detect fraud in the employee benefit system',
+      'plug USB devices in regardless of the plug side',
+      'track the coordinates of my wallet over the net',
+      'remotely give voice commands to my dog',
+      'order a 3D-printed model of my brain',
+      'map my ideas onto a timeline',
   ]
 
   def self.get

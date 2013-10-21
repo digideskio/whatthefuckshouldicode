@@ -19,6 +19,7 @@ class Attribute
     disguised
     dishonest
     disturbing
+    dormant
     dummy
     fake
     faulty

@@ -1,7 +1,7 @@
 class Benefit
 
   @@benefits = [
-      'my social-life is not completely lost',
+      'my social life is not completely lost',
       'all these suckers see me win',
       'I just benefit (don\'t ask)',
       'I don\'t feel guilty for the time being',
@@ -35,6 +35,16 @@ class Benefit
       'I get a impression of self-development',
       'I don\'t waste time on it every time',
       'I don\'t run out of HTTP resources to consume',
+      'the world is fixed',
+      'both parties reach a common misunderstanding',
+      'I can finally get my damn coffee',
+      'others know what to stay away from',
+      'I am able to handle it, even when drunk',
+      'I have a reason to be angry',
+      'we can find the root of evil and kick their ass',
+      'I have time to pack my suitcases before it happens',
+      'I won\'t end up in a October\'s fail compilation',
+      'the government can be rebooted any time',
   ]
 
   def self.get
